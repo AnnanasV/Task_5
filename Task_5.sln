@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thermostat", "Thermostat\Th
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting", "Sorting\Sorting.csproj", "{49D7DF49-60B7-4ABF-9C78-D148DC35B40A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntExtension", "IntExtension\IntExtension.csproj", "{DA5FF86C-09BD-4E22-85D9-65A73AE8A610}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "IntExtension\Extensions.csproj", "{DA5FF86C-09BD-4E22-85D9-65A73AE8A610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicIntegration", "TopicIntegration\TopicIntegration.csproj", "{B7D363FE-62A8-47C0-9977-7F4407A786C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DA5FF86C-09BD-4E22-85D9-65A73AE8A610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5FF86C-09BD-4E22-85D9-65A73AE8A610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA5FF86C-09BD-4E22-85D9-65A73AE8A610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D363FE-62A8-47C0-9977-7F4407A786C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D363FE-62A8-47C0-9977-7F4407A786C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D363FE-62A8-47C0-9977-7F4407A786C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D363FE-62A8-47C0-9977-7F4407A786C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

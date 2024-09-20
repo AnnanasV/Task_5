@@ -3,7 +3,7 @@
     public class Thermostat
     {
         private int temperature;
-        delegate void TemperatureChangedEventHandler(int temperature);
+        delegate void TemperatureChangedEventHandler();
         event TemperatureChangedEventHandler TemperatureChanged;
 
         public Thermostat()
@@ -11,18 +11,18 @@
             TemperatureChanged += ShowTemperature;
         }
 
-        private void OnTemperatureChanged(int temperature)
+        private void OnTemperatureChanged()
         {
-            TemperatureChanged?.Invoke(temperature);
+            TemperatureChanged?.Invoke();
         }
 
         public void ChangeTemperature(int temperature)
         {
             this.temperature = temperature;
-            OnTemperatureChanged(temperature);
+            OnTemperatureChanged();
         }
 
-        public void ShowTemperature(int temperature)
+        public void ShowTemperature()
         {
             Console.WriteLine("Temperature is " + temperature);
         }

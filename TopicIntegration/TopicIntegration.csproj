@@ -9,8 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IntExtension\Extensions.csproj" />
-    <ProjectReference Include="..\Sorting\Sorting.csproj" />
-    <ProjectReference Include="..\Thermostat\Thermostat.csproj" />
   </ItemGroup>
 
 </Project>
